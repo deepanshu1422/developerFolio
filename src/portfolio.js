@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "deepanshu1422",
   title: "Hi, I'm Deepanshu Udhwani",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of tweaking kernels ,building Web applications with JavaScript and Reactjs with undying love to tweak linux"),
+  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript and Reactjs with undying love to tweak linux and kernels"),
   resumeLink: "https://drive.google.com/file/d/1nMExANMHyxD3Nt0y9gNfIlUMKptAtCaq/view?usp=sharing"
 };
 
@@ -198,18 +198,18 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      title: "Hand Gesture Recognition To help Deaf And Mute",
+      subtitle: "Developed an python application that could detect and translate hand gestures in real time ",
+      image: require("./assets/images/translate.png"),
+      footerLink: [{ name: "View My Project", url: "https://github.com/deepanshu1422/HandGestureRecognition" }]
     },
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "550+ stars on my github project",
+      subtitle: "Compiled a list of all open souce programs helping candidates worldwide",
+      image: require("./assets/images/github.svg"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "", url: "" },
+        { name: "View Project Here", url: "https://github.com/deepanshu1422/List-Of-Open-Source-Internships-Programs" }
       ]
     }
   ]
