@@ -33,7 +33,7 @@ const skillsSection = {
   title: "What i do",
   subTitle: "I love to try different things and experiment with technology",
   skills: [
-    emoji("⚡ I've compeleted my Bachelors in CS and currently persuing an MBA "),
+    emoji("⚡ I've compeleted my Bachelors in Computer Engineering and I'm currently pursuing my Masters In Business Administration "),
     emoji("⚡ I am fairly Skilled in Data Structures And Algorithms"),
     //emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
   ],
@@ -128,27 +128,27 @@ const workExperiences = {
       role: "Kernel Development Intern",  
       company: "Alibaba Cloud",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "July 2018 – Present",
+      date: "July 2020 – Present",
       desc: "Adding io_uring support to PostgreSQL for Aliyum Linux 2",
       descBullets: [
         "Increased read-write performance by 23% ",
         "Added support to remove dirty buffers side by side"
       ]
     },
-   /* {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    {
+      role: "Data Analytics Intern",   
+      company: "KPMG",
+      companylogo: require("./assets/images/kpmg.png"),
+      date: "May 2020",
+      desc: "Gained insights of data analytics and consulting at an Analytical Firm   ."
     },
     {
-      role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },*/
+      role: "Mentee",  
+      company: "Linux Foundation",
+      companylogo: require("./assets/images/linux.png"),
+      date: "May 2020 – June 2020",
+      desc: "Wrote python testcases for Hardware Delivery verification and analysis of JSON logs"
+    }
   ]
 };
 
@@ -165,8 +165,8 @@ const openSource = {
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Notable Projects",
+  subtitle: "Contributed/ Developed Technical aspects of these companies",
   projects: [
     {
       image: require("./assets/images/postgres.png"),
@@ -199,13 +199,13 @@ const achievementSection = {
     },
     {
       title: "Hand Gesture Recognition To help Deaf And Mute",
-      subtitle: "Developed an python application that could detect and translate hand gestures in real time ",
+      subtitle: "Developed a python application to detect and translate hand gestures to their corresponding texts in real time. ",
       image: require("./assets/images/translate.png"),
       footerLink: [{ name: "View My Project", url: "https://github.com/deepanshu1422/HandGestureRecognition" }]
     },
     {
       title: "550+ stars on my github project",
-      subtitle: "Compiled a list of all open souce programs helping candidates worldwide",
+      subtitle: "Compiled a list of all open souce programs to help candidates across the globe.",
       image: require("./assets/images/github.svg"),
       footerLink: [
         { name: "", url: "" },
