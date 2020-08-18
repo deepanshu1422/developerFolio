@@ -29,11 +29,11 @@ export default class Main extends Component {
         <StartupProject />
         <Achievement />
         <Blogs />
-        <Talks />
-        <Twitter />
-        <Podcast />
+        
+        
+        
         <Profile />
-        <Footer />
+        
         <Top />
       </div>
     );
